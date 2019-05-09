@@ -191,11 +191,11 @@ for i in range(len(change)):
 output.close()
 
 if __name__=='__main__':
-    fromaddr = "hudi@jiedaibao.com"  
-    smtpaddr = "smtp.exmail.qq.com"  
-    toaddrs = ["hudi@jiedaibao.com"]  
+    fromaddr = "xxx"  
+    smtpaddr = "xxx"  
+    toaddrs = ["xxx"]  
     subject = "观星台每日端口监测"  
-    password = "u9rhcR8HEUkeUatJ"
+    password = "xxx"
    
     sendmail(subject,u"guanxing.log",toaddrs,fromaddr,smtpaddr,password,"观星台审计")
 
